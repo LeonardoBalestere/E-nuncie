@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meu Site de Anúncios</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Reset de margens para o body */
+            padding: 0; /* Reset de padding para o body */
+        }
+
+        /* Estilos para a barra de pesquisa */
+        .search-bar {
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+
+        .search-bar input {
+            width: 80%;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Estilos para o container dos cards */
+        .card-container {
+            width: 100%;
+            padding: 10px; /* Adicionando padding para separar a barra de pesquisa dos cards */
+        }
+
+        /* Estilos para os cards */
+        .card {
+            float: left;
+            width: calc(33.33% - 20px); /* 33.33% de largura para cada card e subtraindo 20px para o espaçamento entre os cards */
+            margin: 10px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-sizing: border-box; /* Incluir a largura do border e do padding na largura total */
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 0;
+        }
+
+        .card p {
+            margin: 10px 0 0;
+        }
+
+        /* Estilos responsivos */
+        @media screen and (max-width: 768px) {
+            .card {
+                width: calc(100% - 20px); /* 100% de largura para cada card em dispositivos com largura de tela menor que 768px */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" placeholder="Digite sua pesquisa...">
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <h3>Título do Anúncio 1</h3>
+            <p>Descrição do anúncio 1.</p>
+        </div>
+        <div class="card">
+            <img src="imagem2.jpg" alt="Imagem 2">
+            <h3>Título do Anúncio 2</h3>
+            <p>Descrição do anúncio 2.</p>
+        </div>
+        <div class="card">
+            <img src="imagem3.jpg" alt="Imagem 3">
+            <h3>Título do Anúncio 3</h3>
+            <p>Descrição do anúncio 3.</p>
+        </div>
+        <div class="card">
+            <img src="imagem4.jpg" alt="Imagem 4">
+            <h3>Título do Anúncio 4</h3>
+            <p>Descrição do anúncio 4.</p>
+        </div>
+        <div class="card">
+            <img src="imagem5.jpg" alt="Imagem 5">
+            <h3>Título do Anúncio 5</h3>
+            <p>Descrição do anúncio 5.</p>
+        </div>
+        <div class="card">
+            <img src="imagem6.jpg" alt="Imagem 6">
+            <h3>Título do Anúncio 6</h3>
+            <p>Descrição do anúncio 6.</p>
+        </div>
+    </div>
+</body>
+</html>    
