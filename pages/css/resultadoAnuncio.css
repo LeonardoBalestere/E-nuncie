@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #a7a7a7;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+    box-shadow: 0px 10px 8px -10px rgba(0, 0, 0, 0.5);
+}
+
+.login-button {
+    float: right;
+}
+
+.cadastro-button {
+    float: right;
+    margin-right: 10px;
+}   
+
+button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #008CBA;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #006181;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px);
+        /* 100% de largura para cada card em dispositivos com largura de tela menor que 768px */
+    }
+}

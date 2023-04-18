@@ -19,7 +19,7 @@ body {
     width: 70%;
     height: 100vh;
     float: left;
-    background-color: #fff;
+    background-color: #ffffff;
     /* Alinhando utilizando flex-box */
     /*display: flex;
     justify-content: center;
@@ -77,4 +77,10 @@ a {
 
 .direita button:hover {
     background-color: #006181;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
