@@ -53,21 +53,34 @@ button:hover {
     height: 150px;
 }
 
-/* Estilos responsivos */
-@media screen and (max-width: 768px) {
-    .card {
-        width: calc(100% - 20px);
-        /* 100% de largura para cada card em dispositivos com largura de tela menor que 768px */
-    }
+.card-container {
+    margin: 20px;
+    overflow: hidden;
 }
 
 .card {
-    border: 1px solid black;
-    display: inline-block;
-    width: 32%;
+    width: calc(33.33% - 20px); /* Largura do card com borda de 1px */
+    border: 1px solid #000; /* Bordas de 1px */
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: red;
 }
 
-.card-container {
-    background-color: yellow;
-    margin: 0 auto;
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3, .card p {
+    margin: 0;
+}
+
+.card p {
+    overflow: hidden; /* Esconde o conteúdo excedente */
+    text-overflow: ellipsis; /* Adiciona reticências (...) no final do texto */
+    white-space: nowrap; /* Impede quebrar a linha do texto */ 
+    max-height: 6em;
 }
