@@ -3,27 +3,11 @@ body {
     padding: 0;
 }
 
-.esquerda h1 {
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    /* Ver com o professor como alinhar esse texto no centro */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .esquerda {
     width: 70%;
     height: 100vh;
     float: left;
     background-color: #fff;
-    /* Alinhando utilizando flex-box */
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
 
 .direita {
@@ -65,7 +49,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 a {
