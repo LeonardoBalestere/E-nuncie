@@ -1,18 +1,6 @@
 body {
-    margin: 0 auto;
-    padding: 0;
-}
-
-.esquerda h1 {
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    /* Ver com o professor como alinhar esse texto no centro */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    padding: 0;
 }
 
 .esquerda {
@@ -20,10 +8,6 @@ body {
     height: 100vh;
     float: left;
     background-color: #ffffff;
-    /* Alinhando utilizando flex-box */
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
 }
 
 .direita {
@@ -35,6 +19,11 @@ body {
     box-shadow: -10px 0px 8px -10px rgba(0, 0, 0, 0.5);
     background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
     text-align: center;
+}
+
+.posicao {
+    position: relative;
+    top: 25%;
 }
 
 form {
@@ -65,7 +54,7 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 a {
