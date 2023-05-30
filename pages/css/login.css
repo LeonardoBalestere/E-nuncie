@@ -8,6 +8,7 @@ body {
     height: 100vh;
     float: left;
     background-color: #ffffff;
+    text-align: center;
 }
 
 .direita {
@@ -67,8 +68,6 @@ a {
     background-color: #006181;
 }
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+span {
+    color: red;
 }

@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-nuncie</title>
-    <link rel="stylesheet" href="./css/resultadoAnuncio.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/buscaProdutos.js"></script>
 </head>
 
 <body>
@@ -23,8 +24,19 @@
     </nav>
     
     <div class="search-bar">
-        <input type="text" placeholder="Digite sua pesquisa...">
+        <input type="text" id="search-bar" name="search" placeholder="Digite sua pesquisa...">
+        <button id="search-button" type="button">Ir</button>
     </div>
+    
+    <section id="products">
+        <template id="template">
+          <div class="item">
+            <img class="item-image" src="images/{{prod-image}}"></img>
+            <span class="item-name">{{prod-name}}</span>
+            <span class="item-price">{{prod-price}}</span>
+          </div>
+        </template>
+    </section>
     
     <div class="categories">
         <h3>Categorias</h3>

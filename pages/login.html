@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/validaLogin.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,16 @@
         </div>
         <div class="direita">
             <div class="posicao">
-                <form action="login.php" method="post">
+                <form name="formLogin">
                     <div>
                         <label for="login">E-mail: </label>
                         <input type="email" id="login" name="login" autofocus required>
+                        <span></span>
                     </div>
                     <div>
                         <label for="password">Senha: </label>
                         <input type="password" id="password" name="password" required>
+                        <span></span>
                     </div>
                     <button>Entrar</button>
                     <a href="./cadastro_usuario.html">

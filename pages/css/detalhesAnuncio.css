@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav{
+    background-color: #ffffff;
+    border-bottom: 1px solid #a7a7a7;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+    box-shadow: 0px 10px 8px -10px rgba(0, 0, 0, 0.5);
+}
+
+.login-button {
+    float: right;
+}
+
+.cadastro-button {
+    float: right;
+    margin-right: 10px;
+}   
+
+button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #008CBA;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #006181;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.anuncio {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem {
+    float: left;
+    margin-right: 20px;
+}
+
+.imagem img {
+    max-width: 300px;
+    height: auto;
+}
+
+.informacoes {
+    float: left;
+    text-align: left;
+}
+
+.descricao {
+    clear: both;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.anuncio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.anuncio h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.anuncio p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.anuncio button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.detalhes {
+    text-align: left;
+    margin-top: 10px;
+    color: #838383;
+}
+
+.botoes form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botoes form input[type="text"] {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botoes form button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
